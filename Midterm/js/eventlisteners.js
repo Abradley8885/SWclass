@@ -42,7 +42,7 @@ function checkPassword(e, minlength) {
       }
     }
     if (upperCase == false || number == false) {
-      elPasswordMsg.innerHTML = '1 upper case, 1 number';
+      elPasswordMsg.innerHTML = 'Password must have at least 1 upper case character and 1 number';
     } else {
       elPasswordMsg.innerHTML = 'Password: OK';
     }
